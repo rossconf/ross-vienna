@@ -1,5 +1,7 @@
 Ruby Open Source Software Vienna
 =========
+
+[![Join the chat at https://gitter.im/rossconf/rossconf.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rossconf/rossconf.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Ruby Open Source Software Vienna ([ROSSConf Vienna](http://rossconf.io)) is a one day conference bringing Open Source software maintainers and developers with a heart for outstanding and free software together in one room. Or multiple rooms, if need be.  
 
 Five maintainers or main contributors to major Open Source projects will get the chance to recruit highly motivated developers to contribute to their project during the hackathon part of the conference.
