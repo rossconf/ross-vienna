@@ -60,7 +60,7 @@ projects:
 
   - name: WeTransfer API
     image_url: /images/sponsors/wetransfer.png
-    description: "Every month, 40 million people rely on [WeTransfer](https://wetransfer.github.io/) to share their creative ideas. At ROSS conf WeTransfer provides early access to their (soon public) API and welcome sample apps and contributions to their docs."
+    description: "Every month, 40 million people rely on [WeTransfer](https://developers.wetransfer.com/) to share their creative ideas. At ROSS conf WeTransfer provides early access to their (soon public) API and welcome sample apps and contributions to their docs and SDKs."
 
 ###################### SCHEDULE ##########################
 schedule:
