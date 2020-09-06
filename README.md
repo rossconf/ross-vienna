@@ -4,45 +4,47 @@ Ruby Open Source Software ([ROSS conf](http://rossconf.io)) is a one day confere
 
 Five maintainers or main contributors to major Open Source projects will get the chance to recruit highly motivated developers to contribute to their project during the hackathon part of the conference.
 
-# Working on the site
+## Code of Conduct
 
-If you'd like to improve http://rossconf.io, add an event or fix a bug we are happy to get your Pull Request (see **Contributing** for more on that). To give you a jumpstart here is an intro to how the site works.
+This project adheres to the [Contributor Convenant Code of Conduct](https://github.com/rossconf/rossconf.io/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to honor this code. For the conferences we adhere to the [Berlin Code of Conduct](http://berlincodeofconduct.org/).
+
+## Working on the site
+
+If you'd like to improve [rossconf.io](https://www.rossconf.io), add an event or fix a bug we are happy to get your Pull Request (see **Contributing** for more on that). To give you a jumpstart here is an intro to how the site works.
 
 ## Run Site
 
 ### Requirements
 
-  * [Ruby](https://www.ruby-lang.org/) and [Bundler](http://bundler.io/)
-  * [Bower](http://bower.io/)
+* [Ruby](https://www.ruby-lang.org/)
+* [Bundler](https://bundler.io/)
+* [Yarn](https://yarnpkg.com/)
+
+To get started with all dependencies in place, run:
+
+    bundle install
+    yarn install
 
 This site is built with [middleman](http://middlemanapp.com).
 To run a local server that watches for changes from your command line, run:
 
-```
-$ bundle install
-$ bower install # installs javascript components
-$ bundle exec middleman server
-== The Middleman is loading
-== LiveReload is waiting for a browser to connect
-== The Middleman is standing watch at http://0.0.0.0:4567
-== Inspect your site configuration at http://0.0.0.0:4567/__middleman/
-```
+    $ bundle exec middleman server
+    == The Middleman is loading
+    == LiveReload is waiting for a browser to connect
+    == The Middleman is standing watch at [http://0.0.0.0:4567](http://0.0.0.0:4567)
+    == Inspect your site configuration at [http://0.0.0.0:4567/__middleman/](http://0.0.0.0:4567/__middleman/)
 
-alternatively you can run:
+Alternatively you can run:
 
-```
-$ rake server
-```
+    rake server
 
-A web-server will then be running and opoen the site on http://localhost:4567
+A web-server will be started. Open the site on [localhost:4567](http://localhost:4567)
 
 ## Building
 
 Usually you don't need to kick off a build locally as we use [Travis CI](https://travis-ci.org/rossconf/rossconf.io) to do this for us and deploy the site. But sometimes things fail even though `middleman server` works fine, and you'll need to run a build. If you are unfamiliar with **middleman** here is the build command:
 
-```
-$ bundle exec middleman build # --verbose (optional)
-```
+    bundle exec middleman build --verbose
 
 This will (re)build the site into `./build` and stop in case it encounters an error.
 
@@ -68,7 +70,7 @@ Below are details on how to fill what.
 
 ##### General Information
 
-```
+```yaml
 city:              # In what city is the event?
 header:            # The image path to the image that should be used as the header
 header_front:      # The image path to what should be shown on the frontpage
@@ -99,7 +101,7 @@ coc:               # Where can people get in touch if they need help and/or feel
 
 Speakers are added in an array with the following attributes: **name**, **image_url**, **twitter**, **github** and **bio**.
 
-```
+```yaml
 speakers:
   - name:
     image_url:
@@ -113,7 +115,7 @@ speakers:
 
 Projects are as well added as an array, with the attribute: **name**, **image_url** and **description**
 
-```
+```yaml
 projects:
   - name:
     image_url:
@@ -123,7 +125,7 @@ projects:
 
 ##### Schedule
 
-```
+```yaml
 schedule:
   "00:00 - 00:00": ...
   "00:00 - 00:00": ...
@@ -131,7 +133,7 @@ schedule:
 
 ##### Team
 
-```
+```yaml
 team:
   - name:
     image_url:
@@ -141,7 +143,7 @@ team:
 
 ##### Sponsors
 
-```
+```yaml
 sponsors:
   - name:
     url:
@@ -150,7 +152,7 @@ sponsors:
 
 ##### Extras
 
-```
+```yaml
 extras:
   - ...
 ```
@@ -161,12 +163,8 @@ Please open an issue.
 
 ### Contributing
 
-- Fork it
-- Create your feature branch (git checkout -b my-new-feature)
-- Commit your changes (git commit -am 'Added some feature')
-- Push to the branch (git push origin my-new-feature)
-- Create new Pull Request
-
-# Code of Conduct
-
-This project adheres to the [Contributor Convenant Code of Conduct](https://github.com/rossconf/rossconf.io/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to honor this code. For the conferences we adhere to the [Berlin Code of Conduct](http://berlincodeofconduct.org/).
+* Fork it
+* Create your feature branch (git checkout -b my-new-feature)
+* Commit your changes (git commit -am 'Added some feature')
+* Push to the branch (git push origin my-new-feature)
+* Create new Pull Request
