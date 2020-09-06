@@ -1,25 +1,25 @@
 task default: %w[test]
 
 task :server do
-  puts "Installing Bower components..."
-  Rake::Task["bower"].invoke
+  # puts "Installing Bower components..."
+  # Rake::Task["bower"].invoke
   puts "\nStarting Development Server..."
   try "bundle exec middleman server"
 end
 
 task :bower do
-  try "bower install"
+  # try "bower install"
 end
 
 task :test do
   puts "\nBuilding project"
-  Rake::Task["bower"].invoke
+  # Rake::Task["bower"].invoke
   try "bundle exec middleman build --verbose"
 end
 
 task :deploy do
   puts "\nDeploying to GitHub"
-  Rake::Task["bower"].invoke
+  # Rake::Task["bower"].invoke
   try "bundle exec middleman deploy"
 end
 
