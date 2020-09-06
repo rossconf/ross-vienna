@@ -23,22 +23,6 @@ task :deploy do
   try "bundle exec middleman deploy"
 end
 
-namespace :travis do
-  task :script do
-    Rake::Task["test"].invoke
-  end
-
-  task :after_success do
-    puts "\nRunning Travis Deployment"
-    puts "\nSetting up Git access"
-    try "git config --global user.name ${GHUSER}"
-    try "git config --global user.email ${GHUSERMAIL}"
-    try "git remote set-url origin https://${GH_TOKEN}:x-oauth-basic@${GH_REPO}"
-
-    Rake::Task["deploy"].invoke
-  end
-end
-
 ## Helper so we fail as soon as a command fails.
 def try(command)
   system command

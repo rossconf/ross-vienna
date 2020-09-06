@@ -42,11 +42,13 @@ A web-server will be started. Open the site on [localhost:4567](http://localhost
 
 ## Building
 
-Usually you don't need to kick off a build locally as we use [Travis CI](https://travis-ci.org/rossconf/rossconf.io) to do this for us and deploy the site. But sometimes things fail even though `middleman server` works fine, and you'll need to run a build. If you are unfamiliar with **middleman** here is the build command:
+Middleman can build the production artefacts for us:
 
     bundle exec middleman build --verbose
 
 This will (re)build the site into `./build` and stop in case it encounters an error.
+
+Make a commit of the build; that's how GitHub pages picks up the new version and makes it available for all the internet to consume.
 
 ## Data
 
