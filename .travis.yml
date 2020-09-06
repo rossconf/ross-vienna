@@ -7,7 +7,7 @@ cache:
   - bower_components
 branches:
   only:
-  - master
+  - main
 script:
 - bundle exec rake travis:script
 before_script:

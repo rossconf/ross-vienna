@@ -1,6 +1,6 @@
 # ROSS conf
 
-Ruby Open Source Software ([ROSS conf](http://rossconf.io)) is a one day conference bringing Open Source software maintainers and developers with a heart for outstanding and free software together in one room. Or multiple rooms, if need be.  
+Ruby Open Source Software ([ROSS conf](http://rossconf.io)) is a one day conference bringing Open Source software maintainers and developers with a heart for outstanding and free software together in one room. Or multiple rooms, if need be.
 
 Five maintainers or main contributors to major Open Source projects will get the chance to recruit highly motivated developers to contribute to their project during the hackathon part of the conference.
 
@@ -15,7 +15,7 @@ If you'd like to improve http://rossconf.io, add an event or fix a bug we are ha
   * [Ruby](https://www.ruby-lang.org/) and [Bundler](http://bundler.io/)
   * [Bower](http://bower.io/)
 
-This site is built with [middleman](http://middlemanapp.com).  
+This site is built with [middleman](http://middlemanapp.com).
 To run a local server that watches for changes from your command line, run:
 
 ```
@@ -169,4 +169,4 @@ Please open an issue.
 
 # Code of Conduct
 
-This project adheres to the [Contributor Convenant Code of Conduct](https://github.com/rossconf/rossconf.io/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to honor this code. For the conferences we adhere to the [Berlin Code of Conduct](http://berlincodeofconduct.org/).
+This project adheres to the [Contributor Convenant Code of Conduct](https://github.com/rossconf/rossconf.io/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to honor this code. For the conferences we adhere to the [Berlin Code of Conduct](http://berlincodeofconduct.org/).
