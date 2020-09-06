@@ -5,10 +5,9 @@ gem 'rake'
 gem 'pry'
 
 # middleman
-gem "middleman", "~> 3.4.1"
+gem "middleman", "~> 3.1" # pinned on 3.x for middleman-disqus support
 gem "middleman-livereload"
 # gem "middleman-favicon-maker", "~> 3.7"
-gem 'middleman-deploy', '~> 0.3.0'
 gem 'nokogiri'
 gem 'middleman-blog'
 gem 'middleman-disqus'
