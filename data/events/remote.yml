@@ -1,0 +1,71 @@
+city: Remote Friendly (CEST based)
+slug: CEST remote friendly
+header: /images/eventheader/amsterdam.jpg
+header_front: /images/eventheader/amsterdam.jpg
+tagline: The European Remote Only Ruby Open Source Software conference
+date_location: October 26 2020 - channels to be decided
+date: 26-10-2020
+description: '<p>ROSS conf gives open source software maintainers the platform to introduce their project to an audience of first time as well as existing contributors. After 15 minute introductions to the project, pressing issues and requests, the conference day is reserved for hands-on programming (or contributing through updating documentation or adding artwork!) and pairing with the maintainers. To conclude the hackathon the maintainers present data on bugs fixed, and pull requests merged.</p>'
+sponsoring_email: 'hello@rossconf.io'
+eventbrite_link: //eventbrite.co.uk/tickets-external?eid=43969456829&ref=etckt
+
+# meta:
+#   description: Europe's Remote Ruby Open Source Software Conference and Hackathon
+#   keywords:
+#     - Ruby
+#     - OSS
+#     - Ruby Open Source
+#     - Open Source Amsterdam
+# social:
+#   twitter: ROSSconf
+#   facebook: ''
+
+# location:
+#   map_link:
+#   address:
+
+# coc: 'Yes, we CoC! see our site for details'
+
+# ###################### SPEAKERS ##########################
+# speakers:
+#   - name:
+#     image_url:
+#     twitter:
+#     github:
+#     bio:
+
+# ###################### PROJECTS ##########################
+
+# projects:
+#   - name: rubyfmt
+#     image_url:
+#     description: Format your Rubies... Well, almost. Join us!
+#   - ...
+
+# ###################### SCHEDULE ##########################
+
+# schedule:
+#   "10:00 – 10:15": Welcome words by emcee
+#   "10:15 – 11:30" Project presentations (5)
+#   "11:30 – 12:30" Breakout AMAs (5)
+#   "12:30 – 13:00" Distributed lunch, sign up for project of choice
+#   "13:00 – 19:00" Project work
+#   "19:00 – 19:45" Closing notes, maintainers report on results
+
+# ###################### TEAM ##########################
+
+# team:
+#   - name:
+#     image_url:
+#     twitter:
+#     github:
+
+# ###################### SPONSORS ##########################
+
+# sponsors:
+#   - name:
+#     url:
+#     image:
+
+# extras:
+#   - ...
