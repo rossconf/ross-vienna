@@ -3,11 +3,11 @@ slug: CEST remote friendly
 header: /images/eventheader/amsterdam.jpg
 header_front: /images/eventheader/amsterdam.jpg
 tagline: The European Remote Only Ruby Open Source Software conference
-date_location: October 26 2020 - channels to be decided
+date_location: October 26, 2020 - channels to be decided
 date: 26-10-2020
-description: '<p>ROSS conf gives open source software maintainers the platform to introduce their project to an audience of first time as well as existing contributors. After 15 minute introductions to the project, pressing issues and requests, the conference day is reserved for hands-on programming (or contributing through updating documentation or adding artwork!) and pairing with the maintainers. To conclude the hackathon the maintainers present data on bugs fixed, and pull requests merged.</p>'
+description: '<p>ROSS conf gives open source software maintainers the platform to introduce their project to an audience of first time as well as existing contributors. After introductions to the project, pressing issues and requests, the conference day is reserved for hands-on programming (or contributing through updating documentation or adding artwork!) and pairing with the maintainers. To conclude the hackathon the maintainers present data on bugs fixed, and pull requests merged.</p>'
 sponsoring_email: 'hello@rossconf.io'
-eventbrite_link: //eventbrite.co.uk/tickets-external?eid=43969456829&ref=etckt
+eventbrite_link: 
 
 # meta:
 #   description: Europe's Remote Ruby Open Source Software Conference and Hackathon
@@ -28,37 +28,50 @@ eventbrite_link: //eventbrite.co.uk/tickets-external?eid=43969456829&ref=etckt
 
 # ###################### SPEAKERS ##########################
 # speakers:
-#   - name:
-#     image_url:
-#     twitter:
-#     github:
-#     bio:
-
+#   - name: Penelope Phippen
+#     image_url: /images/speakers/floor.jpg
+#     twitter: penelope_zone
+#     github: penelopezone
+#     
+#   - name: Olle Jonsson
+#     image_url: /images/speakers/olle_jonsson.png
+#     twitter: olleolleolle
+#     github: olleolleolle
+#     
 # ###################### PROJECTS ##########################
 
 # projects:
 #   - name: rubyfmt
-#     image_url:
-#     description: Format your Rubies... Well, almost. Join us!
-#   - ...
+#     image_url: 
+#     description: The [Ruby Autoformatter](https://github.com/penelopezone/rubyfmt) that almost works. A bit like Rubocop, maybe, except that it's definitely not Rubocop.
+
+#   - name: Faraday
+#     image_url: 
+#     description: [Faraday](https://github.com/lostisland/faraday) is an HTTP client library that provides a common interface over many adapters and embraces the concept of Rack middleware when processing the request/response cycle.
+
 
 # ###################### SCHEDULE ##########################
 
 # schedule:
-#   "10:00 – 10:15": Welcome words by emcee
-#   "10:15 – 11:30" Project presentations (5)
-#   "11:30 – 12:30" Breakout AMAs (5)
-#   "12:30 – 13:00" Distributed lunch, sign up for project of choice
-#   "13:00 – 19:00" Project work
-#   "19:00 – 19:45" Closing notes, maintainers report on results
+#   "11:00 – 11:15": Welcome words by emcee
+#   "11:15 – 12:30" Project presentations
+#   "12:30 – 13:30" Breakout AMAs
+#   "13:30 – 14:00" Distributed lunch, sign up for project of choice
+#   "14:00 – 20:00" Project work
+#   "20:00 – 20:45" Closing notes, maintainers report on results
 
 # ###################### TEAM ##########################
 
 # team:
-#   - name:
-#     image_url:
-#     twitter:
-#     github:
+#   - name: Arno Fleming
+#     image_url: /images/team/arno_fleming.jpg
+#     twitter: ButCoded
+#     github: arnoFleming
+
+#   - name: Floor Drees
+#     image_url: /images/team/floor.jpg
+#     twitter: floordrees
+#     github: FloorD
 
 # ###################### SPONSORS ##########################
 
