@@ -26,6 +26,27 @@ eventbrite_link:
 
 # coc: 'Yes, we CoC! see our site for details'
 
+     
+# ###################### PROJECTS ##########################
+
+# projects:
+#   - name: rubyfmt
+#     image_url: 
+#     description: The [Ruby Autoformatter](https://github.com/penelopezone/rubyfmt) that almost works. A bit like Rubocop, maybe, except that it's definitely not Rubocop.
+
+#   - name: Faraday
+#     image_url: 
+#     description: [Faraday](https://github.com/lostisland/faraday) is an HTTP client library that provides a common interface over many adapters and embraces the concept of Rack middleware when processing the request/response cycle.
+
+#   - name: Vagrant
+#     image_url: 
+#     description: [Vagrant](https://github.com/hashicorp/vagrant) is a tool by HashiCorp, for building and distributing development environments.
+
+#   - name: Gemstash
+#     image_url: 
+#     description: [Gemstash](https://github.com/rubygems/gemstash) is both a cache for remote servers such as rubygems.org, and a private gem source.
+
+
 # ###################### SPEAKERS ##########################
 # speakers:
 #   - name: Penelope Phippen
@@ -38,16 +59,14 @@ eventbrite_link:
 #     twitter: olleolleolle
 #     github: olleolleolle
 #     
-# ###################### PROJECTS ##########################
-
-# projects:
-#   - name: rubyfmt
-#     image_url: 
-#     description: The [Ruby Autoformatter](https://github.com/penelopezone/rubyfmt) that almost works. A bit like Rubocop, maybe, except that it's definitely not Rubocop.
-
-#   - name: Faraday
-#     image_url: 
-#     description: [Faraday](https://github.com/lostisland/faraday) is an HTTP client library that provides a common interface over many adapters and embraces the concept of Rack middleware when processing the request/response cycle.
+#   - name: Sophia Castellarin
+#     image_url: /images/speakers/sophia_castellarin.png
+#     github: soapy1
+#     
+#   - name: Luis Sagastume
+#     image_url: /images/speakers/luis_sagastume.png
+#     twitter: bronzdoc
+#     github: bronzdoc
 
 
 # ###################### SCHEDULE ##########################
