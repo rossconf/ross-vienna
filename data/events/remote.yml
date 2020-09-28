@@ -38,19 +38,24 @@ eventbrite_link:
 #     image_url: 
 #     description: [Faraday](https://github.com/lostisland/faraday) is an HTTP client library that provides a common interface over many adapters and embraces the concept of Rack middleware when processing the request/response cycle.
 
-#   - name: Vagrant
+#   - name: Skunk
 #     image_url: 
-#     description: [Vagrant](https://github.com/hashicorp/vagrant) is a tool by HashiCorp, for building and distributing development environments.
+#     description: [Skunk](https://github.com/fastruby/skunk) is an open source tool that will help you find the stinkiest Ruby files in your project! Find which files are super complicated and have little to no tests. 🦨 
 
 #   - name: Gemstash
 #     image_url: 
 #     description: [Gemstash](https://github.com/rubygems/gemstash) is both a cache for remote servers such as rubygems.org, and a private gem source.
 
+#   - name: Alice
+#     image_url: 
+#     description: [Alice](https://github.com/CoralineAda/alice) is a spirited and game-loving Slack bot featuring a functional pipeline architecture and natural language processing capabilities.
+
+
 
 # ###################### SPEAKERS ##########################
 # speakers:
 #   - name: Penelope Phippen
-#     image_url: /images/speakers/floor.jpg
+#     image_url: /images/speakers/penelope_phippen.jpg
 #     twitter: penelope_zone
 #     github: penelopezone
 #     
@@ -59,15 +64,20 @@ eventbrite_link:
 #     twitter: olleolleolle
 #     github: olleolleolle
 #     
-#   - name: Sophia Castellarin
-#     image_url: /images/speakers/sophia_castellarin.png
-#     github: soapy1
+#   - name: Ernesto Tagwerker
+#     image_url: /images/speakers/ernesto_tagwerker.jpg
+#     twitter: etagwerker
+#     github: etagwerker
 #     
 #   - name: Luis Sagastume
 #     image_url: /images/speakers/luis_sagastume.png
 #     twitter: bronzdoc
 #     github: bronzdoc
-
+#     
+#   - name: Coraline Ada Ehmke
+#     image_url: /images/speakers/coraline_ada.jpg
+#     twitter: CoralineAda
+#     github: CoralineAda
 
 # ###################### SCHEDULE ##########################
 
