@@ -46,9 +46,11 @@ Middleman can build the production artefacts for us:
 
     bundle exec middleman build --verbose
 
-This will (re)build the site into `./build` and stop in case it encounters an error.
+This will (re)build the site into `docs/` (and stop in case it encounters an error).
 
-Make a commit of the build; that's how GitHub pages picks up the new version and makes it available for all the internet to consume.
+Make a commit of the build; that's where GitHub pages expects the result of the build to reside.
+Clearly your not committing to our `main` branch, but in your feature branch, right?
+Once you merge your changes, GH-Pages will deploy the new state in `main` and makes it available for all the internet to consume.
 
 ## Data
 
