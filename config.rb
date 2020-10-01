@@ -6,8 +6,9 @@ activate :deploy do |deploy|
   deploy.commit_message = commit_message
 end
 
-set :site_name,      "ROSS conf"
-set :analytics_code, "UA-60869001-1"
+set :build_dir,       "docs/"
+set :site_name,       "ROSS conf"
+set :analytics_code,  "UA-60869001-1"
 
 activate :directory_indexes
 
