@@ -116,5 +116,4 @@ $(document).on('ready', function(){
     autoplay: true,
     autoplaySpeed: 1000*10
   });
-
 });

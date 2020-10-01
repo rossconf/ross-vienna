@@ -3,7 +3,8 @@
     "@bower_components/easeljs": "CreateJS/EaselJS#~0.8.1",
     "@bower_components/jquery": "jquery/jquery-dist#~2.1.4",
     "@bower_components/lodash": "lodash/lodash#~3.10.1",
-    "@bower_components/slick.js": "kenwheeler/slick#~1.5.8"
+    "@bower_components/slick.js": "kenwheeler/slick#~1.5.8",
+    "jquery": "^3.5.1"
   },
   "engines": {
     "yarn": ">= 1.0.0"

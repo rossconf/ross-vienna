@@ -1,0 +1,14 @@
+---
+layout: event
+event: remote
+---
+<% event = data.events.remote %>
+
+<%= partial "partials/event/header",   locals: { event: event } %>
+<%= partial 'partials/event/intro',    locals: { event: event} %>
+<%= partial "partials/event/projects", locals: { projects: event.projects } %>
+<%= partial "partials/event/schedule", locals: { schedule: event.schedule, multi_day: false } %>
+<%= partial "partials/event/team",     locals: { team: event.team } %>
+<%= partial 'partials/event/coc',      locals: { coc: event.coc } %>
+<%= partial "partials/event/location", locals: { location: event.location } %>
+<%#= partial "partials/event/sponsors", locals: { sponsors: event.sponsors, event: event } %>
