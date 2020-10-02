@@ -42,7 +42,7 @@ end
 
 helpers do
   def md2(source)
-    Tilt::KramdownTemplate.new { source }.render
+    Tilt::KramdownTemplate.new { source.presence || "" }.render
   end
 end
 
