@@ -78,26 +78,26 @@ speakers:
 
 # ###################### SCHEDULE ##########################
 
- schedule:
-   "11:00 – 11:15": Welcome words by emcee
-   "11:15 – 12:30" Project presentations
-   "12:30 – 13:30" Breakout AMAs
-   "13:30 – 14:00" Distributed lunch, sign up for project of choice
-   "14:00 – 20:00" Project work
-   "20:00 – 20:45" Closing notes, maintainers report on results
+schedule:
+  "11:00 – 11:15": Welcome words by emcee
+  "11:15 – 12:30": Project presentations
+  "12:30 – 13:30": Breakouts - ask me anything
+  "13:30 – 14:00": Distributed lunch, sign up for project of choice
+  "14:00 – 20:00": Project work
+  "20:00 – 20:45": Closing notes, maintainers report on results
 
 # ###################### TEAM ##########################
 
-  team:
-   - name: Arno Fleming
-     image_url: /images/team/arno_fleming.jpg
-     twitter: ButCoded
-     github: arnoFleming
+team:
+  - name: Arno Fleming
+    image_url: /images/team/arno_fleming.jpg
+    twitter: ButCoded
+    github: arnoFleming
 
-   - name: Floor Drees
-     image_url: /images/team/floor.jpg
-     twitter: floordrees
-     github: FloorD
+  - name: Floor Drees
+    image_url: /images/team/floor.jpg
+    twitter: floordrees
+    github: FloorD
 
 # ###################### SPONSORS ##########################
 
