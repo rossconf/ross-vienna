@@ -7,7 +7,7 @@ Closes #
 
 ## Types of changes
 
-What types of changes does your code introduce to wt-api-docs?
+What types of changes does your code introduce to rossconf.io?
 _Put an `x` in the boxes that apply_
 
 - [ ] Docs (missing or updated docs)
