@@ -1,9 +1,9 @@
-city: Remote Friendly (times are CEST)
+city: Remote Friendly
 slug: CEST remote friendly
 header: /images/eventheader/amsterdam.jpg
 header_front: /images/eventheader/amsterdam.jpg
 tagline: The European Remote Only Ruby Open Source Software conference
-date_location: Friday October 23, 2020 - channels to be decided
+date_location: Friday October 23, 2020
 date: 23-10-2020
 description: '<p>ROSS conf gives open source software maintainers the platform to introduce their project to an audience of first time as well as existing contributors. After introductions to the project, pressing issues and requests, the conference day is reserved for hands-on programming (or contributing through updating documentation or adding artwork!) and pairing with the maintainers. To conclude the hackathon the maintainers present data on bugs fixed, and pull requests merged.</p>'
 sponsoring_email: 'hello@rossconf.io'
@@ -23,8 +23,6 @@ social:
 location:
   map_link:
   address:
-
-coc: 'Yes, we CoC! see our footer for details'
 
 ###################### PROJECTS ##########################
 
@@ -71,14 +69,15 @@ speakers:
     twitter: bronzdoc
     github: bronzdoc
 
-#   - name: Coraline Ada Ehmke
-#     image_url: /images/speakers/coraline_ada.jpg
-#     twitter: CoralineAda
-#     github: CoralineAda
+  - name: Coraline Ada Ehmke
+    image_url: /images/speakers/coraline_ada.jpg
+    twitter: CoralineAda
+    github: CoralineAda
 
 # ###################### SCHEDULE ##########################
 
 schedule:
+  "All times CEST":
   "11:00 – 11:15": Welcome words by emcee
   "11:15 – 12:30": Project presentations
   "12:30 – 13:30": Breakouts - ask me anything
