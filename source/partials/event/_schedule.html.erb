@@ -1,8 +1,16 @@
-<% multi_day ||= false %>
+<%- multi_day ||= false %>
 <% if schedule %>
   <section class="schedule" id="schedule">
     <div class="container">
       <h2>Schedule</h2>
+      <% if (video_links rescue false) %>
+        <div>Join us on YouTube</div>
+        <%- video_links.each do |title, url| %>
+          <div class=col-xs-12>
+            <a href='<%= url %>'><%= title %></a>
+          </div>
+        <%- end %>
+      <%- end %>
       <% if multi_day %>
         <% schedule.each do |day, activities| %>
           <h3><%= day %></h3>

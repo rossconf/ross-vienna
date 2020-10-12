@@ -8,6 +8,11 @@ event: remote
 <%= partial 'partials/event/intro',    locals: { event: event} %>
 <%= partial "partials/event/projects", locals: { projects: event.projects } %>
 <%= partial "partials/event/speakers", locals: { speakers: event.speakers } %>
-<%= partial "partials/event/schedule", locals: { schedule: event.schedule, multi_day: false } %>
+<%= partial "partials/event/schedule", locals: {
+    schedule: event.schedule,
+    multi_day: false ,
+    video_links: event.video_links
+  }
+%>
 <%= partial "partials/event/team",     locals: { team: event.team } %>
 <%= partial 'partials/event/coc',      locals: { coc: event.coc } %>
