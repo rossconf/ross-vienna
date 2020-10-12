@@ -11,7 +11,8 @@ event: remote
 <%= partial "partials/event/schedule", locals: {
     schedule: event.schedule,
     multi_day: false ,
-    video_links: event.video_links
+    video_links: event.video_links,
+    calendar: event.calendar
   }
 %>
 <%= partial "partials/event/team",     locals: { team: event.team } %>
